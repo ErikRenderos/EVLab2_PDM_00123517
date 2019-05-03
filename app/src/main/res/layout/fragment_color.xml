@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:gravity="center"
+              tools:context=".fragments.ColorFragment">
+
+    <Button
+            android:id="@+id/Button_Min"
+            android:text="-"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:layout_gravity="center"
+            android:id="@+id/Linear_ColorHolder"
+            android:background="#ff00"
+            android:orientation="horizontal"
+            android:layout_width="200sp"
+            android:layout_height="500sp"/>
+
+    <Button
+            android:id="@+id/Button_Plus"
+            android:text="+"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
